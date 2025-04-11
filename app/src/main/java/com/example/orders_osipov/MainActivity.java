@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
         fio = findViewById(R.id.fio);
         phone = findViewById(R.id.phone);
         adress = findViewById(R.id.adress);
-
         if(fio.getText().length() == 0) AlertDialog("Уведомление", "Пожалуйста, укажите Фамилию, Имя и Отчество.");
         else if(phone.getText().length() == 0) AlertDialog("Уведомление", "Пожалуйста, укажите номер телефона.");
         else if(adress.getText().length() == 0) AlertDialog("Уведомление", "Пожалуйста, укажите адрес доставки.");
