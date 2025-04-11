@@ -11,7 +11,7 @@
         android:id="@+id/imageView"
         android:layout_width="411dp"
         android:layout_height="310dp"
-        app:srcCompat="@drawable/img" />
+        app:srcCompat="@drawable/_12__"/>
 
     <TextView
         android:id="@+id/textView"
@@ -75,10 +75,11 @@
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="460dp">
+
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText"
+        android:id="@+id/fio"
         android:layout_width="375dp"
         android:layout_height="39dp"
         android:layout_marginTop="15dp"
@@ -98,11 +99,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.044"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputEditText"
+        app:layout_constraintTop_toBottomOf="@+id/fio"
         app:layout_constraintVertical_bias="0.029" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText1"
+        android:id="@+id/phone"
         android:layout_width="375dp"
         android:layout_height="39dp"
         android:layout_marginTop="15dp"
@@ -121,11 +122,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputEditText1"
+        app:layout_constraintTop_toBottomOf="@+id/phone"
         app:layout_constraintVertical_bias="0.149" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText2"
+        android:id="@+id/adress"
         android:layout_width="375dp"
         android:layout_height="39dp"
         android:layout_marginTop="16dp"
@@ -142,9 +143,10 @@
         android:layout_marginEnd="20dp"
         android:backgroundTint="#FD0000"
         android:onClick="OnArrange"
+        android:textColor="@color/white"
         android:text="Оформить заказ"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputEditText2" />
+        app:layout_constraintTop_toBottomOf="@+id/adress" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
